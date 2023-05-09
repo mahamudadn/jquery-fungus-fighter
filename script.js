@@ -7,8 +7,6 @@ $(document).ready(onReady);
 
 
 
-
-
 function onReady() {
     
     // Make sure you check the index.html file! 
@@ -86,7 +84,6 @@ function fireHandle() {
 
     render();
 }
-
 
 
 // function that changes of the vlue of hp and ah.
