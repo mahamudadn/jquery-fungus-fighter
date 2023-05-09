@@ -60,6 +60,8 @@ function entangleHandle() {
 
 }
 
+//function that handles when blader is clicked
+
 function bladerHandle() {
     
     ap -= 38;
@@ -73,19 +75,19 @@ function bladerHandle() {
 }
 
 
-// function fireHandle() {
+function fireHandle() {
     
-//     ap -= 33;
-//     hp -= 25;
+    ap -= 33;
+    hp -= 25;
 
 
-//     if (ap < 0) { ap = 0;}
-//        if (hp < 0) { hp = 0; }
+    if (ap < 0) { ap = 0;}
+       if (hp < 0) { hp = 0; }
 
-//     render();
+    render();
+}
 
 
-// }
 // // function that
 // function humanityDoom() {
 //     if(hp === 0){
