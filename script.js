@@ -110,9 +110,10 @@ function humanityDoom() {
     render();
 }
 
-// function render() {
-//     $('.ap-text').text(ap)
-//     $('.hp-text').text(hp)
-//     humanityDoom();
+// renders onclick function from state to the DOM.
+function render() {
+    $('.ap-text').text(ap)
+    $('.hp-text').text(hp)
+    humanityDoom();
 
-// }
+}
