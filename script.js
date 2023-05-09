@@ -88,22 +88,27 @@ function fireHandle() {
 }
 
 
-// // function that
-// function humanityDoom() {
-//     if(hp === 0){
-//         $('.freaky-fungus').removeClass('walk').addClass('dead');
-//         $('.attack-btn').prop('disabled', true)
-//         render();    
-    
-//     } else if(ap === 0 ) {
-        
-//         $('.freaky-fungus').removeClass('walk').addClass('jump');
-//         $('.attack-btn').prop('disabled',true)
 
-//     }
+// function that changes of the vlue of hp and ah.
+function humanityDoom() {
+    if(hp === 0){
+        // function that that changes walk to dead when its 0
+        $('.freaky-fungus').removeClass('walk').addClass('dead');
+        // disables onclick ap when ever the valu gets zero.
+        $('.attack-btn').prop('disabled', true)
 
-//     render();
-// }
+    // render funtion that prints result in to the DOM.
+     render();    
+    // condition that checks the value of ap.
+    } else if(ap === 0 ) {
+       // changes walk to champ. 
+     $('.freaky-fungus').removeClass('walk').addClass('jump');
+     $('.attack-btn').prop('disabled',true)
+
+    }
+// renders value in to DOM.
+    render();
+}
 
 // function render() {
 //     $('.ap-text').text(ap)
