@@ -60,22 +60,19 @@ function entangleHandle() {
 
 }
 
-// function bladerHandle() {
+function bladerHandle() {
     
-//     ap -= 38;
-//     hp -= 47;
+    ap -= 38;
+    hp -= 47;
   
+    if (ap < 0) { ap = 0;}
+       if (hp < 0) {hp = 0;}
 
-//     if (ap < 0) {
-//         ap = 0;
-//        }
-//        if (hp < 0) {hp = 0;}
+    render();
 
-//     render();
-
+}
 
 
-// }
 // function fireHandle() {
     
 //     ap -= 33;
