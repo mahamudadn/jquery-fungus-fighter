@@ -29,32 +29,36 @@ function onReady() {
 let hp = 100;
 let ap = 100;
 
-// function arcaneHandle() {
-//     console.log('arcaneHandle', arcaneHandle)
-//    ap -=12;
-//    hp -= 14;
+function arcaneHandle() {
+    console.log('arcaneHandle', arcaneHandle)
+   ap -=12;
+   hp -= 14;
 
-//    if (ap < 0) { ap = 0;}
-//    if (hp < 0) { hp = 0; }
+   if (ap < 0) { ap = 0;}
+   if (hp < 0) { hp = 0; }
 
-//    console.log(ap)
+   console.log(ap)
 
-//    render();
+   render();
 
-// }
+}
 
-// function entangleHandle() {
+// function that handles when ectangle is clicked
+// that will deduct both ap and a hp whenever is clicked.
+// called render function to see the my result on the DOM.
+
+function entangleHandle() {
     
-//     ap -= 23;
-//     hp -= 9 ;
+    ap -= 23;
+    hp -= 9 ;
 
-//     if (ap < 0) { ap = 0;
-// }
-//        if (hp < 0) { hp = 0;}
+    if (ap < 0) { ap = 0;
+    }
+       if (hp < 0) { hp = 0;}
 
-//     render();
+    render();
 
-// }
+}
 
 // function bladerHandle() {
     
