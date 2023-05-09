@@ -24,8 +24,10 @@ function onReady() {
     // - Rendered to the DOM
 }
 
-// let hp = 100;
-// let ap = 100;
+// created a global variable outside of the onready function.
+
+let hp = 100;
+let ap = 100;
 
 // function arcaneHandle() {
 //     console.log('arcaneHandle', arcaneHandle)
